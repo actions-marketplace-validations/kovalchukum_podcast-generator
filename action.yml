@@ -2,7 +2,7 @@ name: "Podcast Generator  (test v0.0.1)"
 author: "Yurii Kovalchuk"
 description: "Generates a feed for a podcast from a YAML file"
 runs:
-  using: "docker"
+  using: book-open
   image: "Dockerfile"
 branding:
   icon: "git-brach"
