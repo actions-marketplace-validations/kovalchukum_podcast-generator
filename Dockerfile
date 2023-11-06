@@ -1,4 +1,4 @@
-FROM ubuntu-latest
+FROM ubuntu:latest
 
 RUN apt-get udpade && apt-get install -y \
   python3.10 \
